@@ -1,1 +1,41 @@
-193011
+13. Ја извршив командата git fetch origin ова се користи за да ја
+    симнеме најновата состојба на remote репозиториумот, без да се
+    менуваат локалните фајлови или гранки.
+14. За да се префрлиме на гранката за првиот issue ја користиме
+    командата git checkout 1-remove-a-task-by-name
+    За да се префрлиме на гранката за вториот issue ја користиме
+    командата git checkout 2-find-all-completed-tasks
+    За да се префрлиме на гранката за третиот issue ја користиме
+    командата git checkout 8-mark-a-task-as-completed-by-name
+16. За првиот issue
+    git add SI2025Lab1Main.java
+    git commit -m "Remove a task by name"
+    За вториот issue
+    git add SI2025Lab1Main.java
+    git checkout 2-find-all-completed-tasks
+    За третиот issue
+    git add SI2025Lab1Main.java
+    git commit -m "Mark a task as completed by name"
+17. За првиот issue
+    git push origin 1-remove-a-task-by-name
+    За вториот issue
+    git push origin 2-find-all-completed-tasks
+    За третиот issue
+    git push origin 8-mark-a-task-as-completed-by-name
+23.Прво се префрламе на master гранката
+   git checkout master
+   потоа
+   git pull origin master
+25.Командата
+   git log --oneline --graph --all > logs.txt
+   ќе креира датотека logs.txt и ќе ги ископира досегасните git логови
+   во неа.
+   Датотеката 193011.txt претходно ми е креирана.
+   Со командата
+   git add logs.txt 193011.txt
+   ги додаваме двете датотеки
+   Команда:
+   git commit -m "Final commit."
+   за да направиме commit
+26.Команда
+   git pull origin master
