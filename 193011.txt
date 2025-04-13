@@ -38,4 +38,4 @@
    git commit -m "Final commit."
    за да направиме commit
 26.Команда
-   git pull origin master
+   git push origin master
